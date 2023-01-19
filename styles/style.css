@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --------------------------------------------------------------
+                    header and navigation styles
+----------------------------------------------------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+
+
+}
+
+.nav-title {
+    width: 302px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* -------------------------------------------------------------------
+                            header banner
+---------------------------------------------------------------------- */
+.banner {
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 240px;
+
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.banner-description {
+    width: 868px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/* ------------------ button -------------------- */
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
